@@ -15,6 +15,7 @@
 <nav>
   <a href="#top"><img src="manos-canales.png" alt="Canales" width="100"></a>
   <ul class="nav-links">
+    <li><a href="#mundial">Mundial 2026</a></li>
     <li><a href="#descripcion">Proyecto</a></li>
     <li><a href="#objetivos">Objetivos</a></li>
     <li><a href="#poblacion">Población</a></li>
@@ -30,6 +31,7 @@
 <!-- Mobile menu -->
 <div class="mobile-menu" aria-hidden="true">
   <ul>
+    <li><a href="#mundial">Mundial 2026</a></li>
     <li><a href="#descripcion">Proyecto</a></li>
     <li><a href="#objetivos">Objetivos</a></li>
     <li><a href="#poblacion">Población</a></li>
@@ -72,6 +74,41 @@
   </div>
 
 </header>
+
+<!-- ===== CUENTA REGRESIVA MUNDIAL 2026 ===== -->
+<section class="countdown" id="mundial">
+  <div class="container">
+    <div class="countdown-inner reveal">
+      <div class="countdown-label">Camino al Mundial</div>
+      <h2>Cuenta regresiva<br><em>Copa Mundial 2026</em></h2>
+      <p class="countdown-sub">Canadá · México · Estados Unidos — 11 de junio de 2026</p>
+
+      <div class="countdown-grid" id="countdown" role="timer" aria-live="polite">
+        <div class="cd-unit">
+          <span class="cd-num" id="cd-days">--</span>
+          <span class="cd-lbl">Días</span>
+        </div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit">
+          <span class="cd-num" id="cd-hours">--</span>
+          <span class="cd-lbl">Horas</span>
+        </div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit">
+          <span class="cd-num" id="cd-mins">--</span>
+          <span class="cd-lbl">Minutos</span>
+        </div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit">
+          <span class="cd-num" id="cd-secs">--</span>
+          <span class="cd-lbl">Segundos</span>
+        </div>
+      </div>
+
+      <p class="countdown-live" id="countdown-live" hidden>¡El Mundial 2026 ya comenzó! ⚽</p>
+    </div>
+  </div>
+</section>
 
 <!-- ===== DESCRIPCIÓN ===== -->
 <section class="descripcion" id="descripcion">
@@ -446,6 +483,36 @@
     mobileMenu.setAttribute('aria-hidden', !isOpen);
     document.body.style.overflow = isOpen ? 'hidden' : '';
   });
+
+  // ===== cuenta regresiva Mundial 2026 =====
+  (function(){
+    // Inauguración: 11 de junio de 2026, 19:00 (hora de México, UTC-6)
+    const target = new Date('2026-06-11T19:00:00-06:00').getTime();
+    const grid = document.getElementById('countdown');
+    const live = document.getElementById('countdown-live');
+    const elDays = document.getElementById('cd-days');
+    const elHours = document.getElementById('cd-hours');
+    const elMins = document.getElementById('cd-mins');
+    const elSecs = document.getElementById('cd-secs');
+    const pad = n => String(n).padStart(2,'0');
+
+    function tick(){
+      const diff = target - Date.now();
+      if(diff <= 0){
+        grid.hidden = true;
+        live.hidden = false;
+        clearInterval(timer);
+        return;
+      }
+      const s = Math.floor(diff/1000);
+      elDays.textContent  = Math.floor(s/86400);
+      elHours.textContent = pad(Math.floor((s%86400)/3600));
+      elMins.textContent  = pad(Math.floor((s%3600)/60));
+      elSecs.textContent  = pad(s%60);
+    }
+    tick();
+    const timer = setInterval(tick, 1000);
+  })();
 </script>
 
 </body>
