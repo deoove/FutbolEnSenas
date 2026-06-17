@@ -129,33 +129,7 @@ nav{
   position:relative;overflow:hidden;
   padding:calc(var(--nav-h) + 4rem) 2rem 5rem;
   text-align:center;
-  background:#1a2e1a;
 }
-.hero-pitch{
-  position:absolute;inset:0;
-  width:100%;height:100%;
-  z-index:0;
-  object-fit:cover;
-}
-/* oscurecer un poco más el hero para legibilidad sobre el verde */
-.hero::after{
-  content:"";
-  position:absolute;inset:0;z-index:1;
-  background:linear-gradient(to bottom,
-    rgba(10,20,10,.45) 0%,
-    rgba(10,20,10,.18) 45%,
-    rgba(10,20,10,.55) 100%);
-  pointer-events:none;
-}
-/* blobs y contenido por encima del overlay */
-.hero .blob,.hero-inner{z-index:2}
-/* ajustar colores de texto del hero sobre fondo oscuro */
-h1.hero-title{color:#fff}
-h1.hero-title .ital{color:var(--orange)}
-.hero-sub{color:rgba(255,255,255,.75)}
-.hero-meta-item .label{color:rgba(255,255,255,.55)}
-.hero-meta-item .val{color:#fff}
-.hero-meta-divider{background:rgba(255,255,255,.3)}
 
 svg.squiggle{position:absolute;pointer-events:none;z-index:1}
 .squiggle-tl{top:5%;left:15%;width:280px;transform:rotate(-20deg)}
