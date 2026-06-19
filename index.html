@@ -15,7 +15,6 @@
 <nav>
   <a href="#top"><img src="manos-canales.png" alt="Canales" width="100"></a>
   <ul class="nav-links">
-    <li><a href="#mundial">Mundial 2026</a></li>
     <li><a href="#descripcion">Proyecto</a></li>
     <li><a href="#objetivos">Objetivos</a></li>
     <li><a href="#poblacion">Población</a></li>
@@ -31,7 +30,6 @@
 <!-- Mobile menu -->
 <div class="mobile-menu" aria-hidden="true">
   <ul>
-    <li><a href="#mundial">Mundial 2026</a></li>
     <li><a href="#descripcion">Proyecto</a></li>
     <li><a href="#objetivos">Objetivos</a></li>
     <li><a href="#poblacion">Población</a></li>
@@ -43,72 +41,6 @@
 
 <!-- ===== HERO ===== -->
 <header class="hero" id="top">
-
-  <!-- cancha de fútbol SVG fondo -->
-  <svg class="hero-pitch" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <!-- cielo / tribuna superior -->
-    <rect width="1440" height="900" fill="#1a2e1a"/>
-    <!-- franjas de césped -->
-    <rect x="0" y="280" width="1440" height="620" fill="#2d5a1b"/>
-    <rect x="0" y="280" width="1440" height="55"  fill="#336820"/>
-    <rect x="0" y="390" width="1440" height="55"  fill="#336820"/>
-    <rect x="0" y="500" width="1440" height="55"  fill="#336820"/>
-    <rect x="0" y="610" width="1440" height="55"  fill="#336820"/>
-    <rect x="0" y="720" width="1440" height="55"  fill="#336820"/>
-    <!-- líneas blancas del campo -->
-    <!-- borde exterior -->
-    <rect x="80"  y="300" width="1280" height="570" rx="2" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="3"/>
-    <!-- línea del medio -->
-    <line x1="720" y1="300" x2="720" y2="870" stroke="rgba(255,255,255,.55)" stroke-width="3"/>
-    <!-- círculo central -->
-    <circle cx="720" cy="585" r="90" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="3"/>
-    <circle cx="720" cy="585" r="5"  fill="rgba(255,255,255,.7)"/>
-    <!-- área grande izquierda -->
-    <rect x="80" y="450" width="200" height="270" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="3"/>
-    <!-- área chica izquierda -->
-    <rect x="80" y="510" width="80"  height="150" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="3"/>
-    <!-- arco izquierdo (vista frontal leve perspectiva) -->
-    <rect x="80" y="535" width="22" height="100" fill="rgba(255,255,255,.15)" stroke="rgba(255,255,255,.8)" stroke-width="3"/>
-    <!-- área grande derecha -->
-    <rect x="1160" y="450" width="200" height="270" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="3"/>
-    <!-- área chica derecha -->
-    <rect x="1280" y="510" width="80"  height="150" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="3"/>
-    <!-- arco derecho -->
-    <rect x="1338" y="535" width="22" height="100" fill="rgba(255,255,255,.15)" stroke="rgba(255,255,255,.8)" stroke-width="3"/>
-    <!-- semicírculo área izquierda -->
-    <path d="M280,450 A90,90 0 0,1 280,720" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="3"/>
-    <!-- semicírculo área derecha -->
-    <path d="M1160,450 A90,90 0 0,0 1160,720" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="3"/>
-    <!-- punto penal izquierdo -->
-    <circle cx="210" cy="585" r="5" fill="rgba(255,255,255,.7)"/>
-    <!-- punto penal derecho -->
-    <circle cx="1230" cy="585" r="5" fill="rgba(255,255,255,.7)"/>
-    <!-- tribuna superior con gradiente oscuro -->
-    <rect x="0" y="0" width="1440" height="290" fill="url(#stadiumGrad)"/>
-    <!-- tablero marcador -->
-    <rect x="570" y="60" width="300" height="90" rx="10" fill="#111" stroke="rgba(255,255,255,.25)" stroke-width="2"/>
-    <rect x="585" y="75" width="120" height="60" rx="5" fill="#1a1a1a" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
-    <rect x="735" y="75" width="120" height="60" rx="5" fill="#1a1a1a" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
-    <text x="645" y="117" text-anchor="middle" font-family="monospace" font-size="30" fill="rgba(255,255,255,.7)">0</text>
-    <text x="795" y="117" text-anchor="middle" font-family="monospace" font-size="30" fill="rgba(255,255,255,.7)">0</text>
-    <text x="720" y="117" text-anchor="middle" font-size="20" fill="rgba(255,255,255,.4)">:</text>
-    <!-- gradientes -->
-    <defs>
-      <linearGradient id="stadiumGrad" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%"   stop-color="#0d1d0d" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#0d1d0d" stop-opacity="0"/>
-      </linearGradient>
-    </defs>
-    <!-- overlay gradiente sobre el campo para que el contenido del hero sea legible -->
-    <rect x="0" y="280" width="1440" height="620" fill="url(#fieldOverlay)"/>
-    <defs>
-      <radialGradient id="fieldOverlay" cx="50%" cy="50%" r="70%">
-        <stop offset="0%"   stop-color="#1F3050" stop-opacity="0"/>
-        <stop offset="100%" stop-color="#0d1d0d" stop-opacity=".55"/>
-      </radialGradient>
-    </defs>
-  </svg>
-
   <div class="blob hero-blob-1"></div>
   <div class="blob hero-blob-2"></div>
   <div class="blob hero-blob-3"></div>
@@ -140,41 +72,6 @@
   </div>
 
 </header>
-
-<!-- ===== CUENTA REGRESIVA MUNDIAL 2026 ===== -->
-<section class="countdown" id="mundial">
-  <div class="container">
-    <div class="countdown-inner reveal">
-      <div class="countdown-label">Camino al Mundial</div>
-      <h2>Cuenta regresiva<br><em>Copa Mundial 2026</em></h2>
-      <p class="countdown-sub">Canadá · México · Estados Unidos — 11 de junio de 2026</p>
-
-      <div class="countdown-grid" id="countdown" role="timer" aria-live="polite">
-        <div class="cd-unit">
-          <span class="cd-num" id="cd-days">--</span>
-          <span class="cd-lbl">Días</span>
-        </div>
-        <div class="cd-sep">:</div>
-        <div class="cd-unit">
-          <span class="cd-num" id="cd-hours">--</span>
-          <span class="cd-lbl">Horas</span>
-        </div>
-        <div class="cd-sep">:</div>
-        <div class="cd-unit">
-          <span class="cd-num" id="cd-mins">--</span>
-          <span class="cd-lbl">Minutos</span>
-        </div>
-        <div class="cd-sep">:</div>
-        <div class="cd-unit">
-          <span class="cd-num" id="cd-secs">--</span>
-          <span class="cd-lbl">Segundos</span>
-        </div>
-      </div>
-
-      <p class="countdown-live" id="countdown-live" hidden>¡El Mundial 2026 ya comenzó! ⚽</p>
-    </div>
-  </div>
-</section>
 
 <!-- ===== DESCRIPCIÓN ===== -->
 <section class="descripcion" id="descripcion">
@@ -550,35 +447,6 @@
     document.body.style.overflow = isOpen ? 'hidden' : '';
   });
 
-  // ===== cuenta regresiva Mundial 2026 =====
-  (function(){
-    // Inauguración: 11 de junio de 2026, 19:00 (hora de México, UTC-6)
-    const target = new Date('2026-06-11T19:00:00-06:00').getTime();
-    const grid = document.getElementById('countdown');
-    const live = document.getElementById('countdown-live');
-    const elDays = document.getElementById('cd-days');
-    const elHours = document.getElementById('cd-hours');
-    const elMins = document.getElementById('cd-mins');
-    const elSecs = document.getElementById('cd-secs');
-    const pad = n => String(n).padStart(2,'0');
-
-    function tick(){
-      const diff = target - Date.now();
-      if(diff <= 0){
-        grid.hidden = true;
-        live.hidden = false;
-        clearInterval(timer);
-        return;
-      }
-      const s = Math.floor(diff/1000);
-      elDays.textContent  = Math.floor(s/86400);
-      elHours.textContent = pad(Math.floor((s%86400)/3600));
-      elMins.textContent  = pad(Math.floor((s%3600)/60));
-      elSecs.textContent  = pad(s%60);
-    }
-    tick();
-    const timer = setInterval(tick, 1000);
-  })();
 </script>
 
 </body>
