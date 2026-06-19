@@ -129,7 +129,15 @@ nav{
   position:relative;overflow:hidden;
   padding:calc(var(--nav-h) + 4rem) 2rem 5rem;
   text-align:center;
+  background:url('fondo.jpeg') center center / cover no-repeat;
 }
+.hero::after{
+  content:"";
+  position:absolute;inset:0;z-index:1;
+  background:rgba(239,234,225,.72);
+  pointer-events:none;
+}
+.hero .blob,.hero-inner{position:relative;z-index:2}
 
 svg.squiggle{position:absolute;pointer-events:none;z-index:1}
 .squiggle-tl{top:5%;left:15%;width:280px;transform:rotate(-20deg)}
