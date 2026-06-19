@@ -14,7 +14,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
-  font-family:'Manrope',sans-serif;
+  font-family:'Montserrat',sans-serif;
   background:var(--cream);
   color:var(--navy);
   overflow-x:hidden;
@@ -160,7 +160,7 @@ svg.squiggle{position:absolute;pointer-events:none;z-index:1}
 
 .eyebrow{
   display:inline-block;
-  font-family:'Fraunces',serif;font-style:italic;
+  font-family:'Montserrat',sans-serif;font-style:italic;
   color:var(--orange);font-size:1rem;
   letter-spacing:.18em;text-transform:uppercase;
   margin-bottom:1.2rem;font-weight:500;
@@ -172,7 +172,7 @@ svg.squiggle{position:absolute;pointer-events:none;z-index:1}
 }
 
 h1.hero-title{
-  font-family:'Fraunces',serif;
+  font-family:'Montserrat',sans-serif;
   font-weight:800;
   font-size:clamp(2.8rem,10vw,9rem);
   line-height:.92;
@@ -182,7 +182,7 @@ h1.hero-title{
 }
 h1.hero-title .ital{
   font-style:italic;font-weight:400;
-  font-family:'Allura',cursive;
+  font-family:'Montserrat',sans-serif;
   font-size:1.2em;
   color:var(--orange);
   display:inline-block;
@@ -208,7 +208,7 @@ h1.hero-title .ital{
   margin-bottom:.25rem;
 }
 .hero-meta-item .val{
-  font-family:'Fraunces',serif;
+  font-family:'Montserrat',sans-serif;
   font-size:1.05rem;color:var(--navy);font-weight:600;
 }
 .hero-meta-divider{width:1px;background:var(--navy);opacity:.2}
@@ -243,7 +243,7 @@ section{position:relative;padding:6rem 3rem;overflow:hidden}
 .container{max-width:1200px;margin:0 auto;position:relative;z-index:2}
 
 .section-label{
-  font-family:'Fraunces',serif;font-style:italic;
+  font-family:'Montserrat',sans-serif;font-style:italic;
   font-size:.9rem;color:var(--orange);
   letter-spacing:.15em;text-transform:uppercase;
   margin-bottom:.9rem;font-weight:500;
@@ -251,7 +251,7 @@ section{position:relative;padding:6rem 3rem;overflow:hidden}
 .section-label::before{content:"—— ";letter-spacing:0}
 
 h2{
-  font-family:'Fraunces',serif;
+  font-family:'Montserrat',sans-serif;
   font-weight:700;
   font-size:clamp(2rem,4.5vw,4rem);
   line-height:1.02;
@@ -259,7 +259,7 @@ h2{
   color:var(--navy);
 }
 h2 em{
-  font-family:'Allura',cursive;
+  font-family:'Montserrat',sans-serif;
   font-style:normal;font-weight:400;
   color:var(--orange);
   font-size:1.15em;
@@ -278,7 +278,7 @@ h2 em{
   margin-top:1.1rem;
 }
 .desc-text p:first-of-type::first-letter{
-  font-family:'Fraunces',serif;
+  font-family:'Montserrat',sans-serif;
   font-size:4rem;float:left;line-height:.85;
   color:var(--orange);
   margin:.45rem .55rem 0 0;font-weight:600;
@@ -307,7 +307,7 @@ h2 em{
   position:absolute;bottom:-1.5rem;left:-2rem;
   background:var(--navy);color:var(--cream);
   padding:1rem 1.4rem;border-radius:1.2rem;
-  font-family:'Fraunces',serif;
+  font-family:'Montserrat',sans-serif;
   font-size:.9rem;font-style:italic;
   box-shadow:0 12px 30px -10px rgba(0,0,0,.3);
   z-index:3;
@@ -336,12 +336,12 @@ h2 em{
 .objetivo-decoration{
   position:absolute;top:-3rem;left:50%;
   transform:translateX(-50%);
-  font-family:'Allura',cursive;
+  font-family:'Montserrat',sans-serif;
   color:var(--orange);
   font-size:6rem;line-height:1;opacity:.2;
 }
 .objetivo-quote{
-  font-family:'Fraunces',serif;
+  font-family:'Montserrat',sans-serif;
   font-weight:300;
   font-size:clamp(1.4rem,3vw,2.6rem);
   line-height:1.35;letter-spacing:-.01em;
@@ -355,7 +355,7 @@ h2 em{
   border-radius:2px;opacity:.5;
 }
 .objetivo-label{
-  font-family:'Fraunces',serif;font-style:italic;
+  font-family:'Montserrat',sans-serif;font-style:italic;
   color:var(--orange);font-size:.95rem;
   letter-spacing:.2em;text-transform:uppercase;
   margin-bottom:2rem;
@@ -411,7 +411,7 @@ h2 em{
 .obj-card:hover .obj-bar{background:var(--orange)}
 
 .obj-num{
-  font-family:'Fraunces',serif;
+  font-family:'Montserrat',sans-serif;
   font-size:4.5rem;line-height:.85;
   color:var(--orange);font-weight:700;
   transition:color .4s ease;
@@ -425,7 +425,7 @@ h2 em{
   position:relative;z-index:2;
 }
 .obj-title{
-  font-family:'Fraunces',serif;
+  font-family:'Montserrat',sans-serif;
   font-size:.95rem;font-weight:600;
   color:var(--navy);margin-bottom:.5rem;
   transition:color .4s ease;
@@ -478,12 +478,12 @@ h2 em{
 .pob-card:hover .pob-icon{transform:rotate(5deg) scale(1.05)}
 .pob-icon svg{width:24px;height:24px;color:var(--cream)}
 .pob-card h3{
-  font-family:'Fraunces',serif;font-style:italic;
+  font-family:'Montserrat',sans-serif;font-style:italic;
   font-size:1.25rem;font-weight:500;
   color:var(--orange-soft);margin-bottom:1rem;
 }
 .pob-big{
-  font-family:'Fraunces',serif;
+  font-family:'Montserrat',sans-serif;
   font-size:3.2rem;line-height:1;
   color:var(--cream);font-weight:700;
   letter-spacing:-.03em;margin-bottom:.4rem;
@@ -520,7 +520,7 @@ h2 em{
   color:var(--muted);margin-bottom:.25rem;
 }
 .dur-stat .val{
-  font-family:'Fraunces',serif;
+  font-family:'Montserrat',sans-serif;
   font-size:1.4rem;font-weight:600;color:var(--navy);
 }
 
@@ -544,12 +544,12 @@ h2 em{
 .etapa-1 .etapa-marker{right:-44px}
 .etapa-2 .etapa-marker{left:-44px}
 .etapa-num{
-  font-family:'Allura',cursive;
+  font-family:'Montserrat',sans-serif;
   font-size:3.2rem;color:var(--orange);
   line-height:.8;margin-bottom:.5rem;
 }
 .etapa h3{
-  font-family:'Fraunces',serif;
+  font-family:'Montserrat',sans-serif;
   font-size:1.3rem;color:var(--navy);
   margin-bottom:.3rem;font-weight:600;
 }
@@ -591,12 +591,12 @@ h2 em{
 .act-item:hover{padding-left:.75rem}
 .act-item:hover .act-arrow{opacity:1;transform:translateX(0)}
 .act-num{
-  font-family:'Fraunces',serif;font-style:italic;
+  font-family:'Montserrat',sans-serif;font-style:italic;
   font-size:1rem;color:var(--orange);min-width:28px;
 }
 .act-num::before{content:"0" counter(act)}
 .act-text{
-  font-family:'Fraunces',serif;
+  font-family:'Montserrat',sans-serif;
   font-size:1.1rem;color:var(--navy);
   font-weight:500;line-height:1.4;
 }
@@ -620,7 +620,7 @@ h2 em{
   position:absolute;top:10%;right:-2rem;
   background:var(--orange);color:var(--cream);
   padding:.85rem 1.3rem;border-radius:1rem;
-  font-family:'Fraunces',serif;font-style:italic;font-size:.9rem;
+  font-family:'Montserrat',sans-serif;font-style:italic;font-size:.9rem;
   transform:rotate(5deg);
   box-shadow:0 10px 25px -8px rgba(0,0,0,.25);z-index:2;
 }
@@ -645,7 +645,7 @@ h2 em{
   max-width:1200px;margin:0 auto;
 }
 .coord-section h3{
-  font-family:'Fraunces',serif;font-style:italic;
+  font-family:'Montserrat',sans-serif;font-style:italic;
   font-size:1.5rem;color:var(--orange);
   margin-bottom:1.5rem;font-weight:500;
 }
@@ -707,13 +707,13 @@ h2 em{
 }
 .cierre-inner{position:relative;z-index:2;max-width:900px;margin:0 auto}
 .cierre-thanks{
-  font-family:'Allura',cursive;
+  font-family:'Montserrat',sans-serif;
   font-size:clamp(3.2rem,10vw,9rem);
   color:var(--navy);line-height:.9;margin-bottom:.5rem;
 }
 .cierre-thanks .accent{color:var(--orange)}
 .cierre-sub{
-  font-family:'Fraunces',serif;font-style:italic;
+  font-family:'Montserrat',sans-serif;font-style:italic;
   font-size:clamp(1.1rem,2.5vw,1.4rem);color:var(--navy);margin-bottom:2.5rem;
 }
 .firma{
@@ -722,7 +722,7 @@ h2 em{
 }
 .firma-item{text-align:center}
 .firma-line{width:110px;height:1px;background:var(--navy);margin:0 auto .9rem;opacity:.4}
-.firma-name{font-family:'Fraunces',serif;font-size:1rem;font-weight:600;color:var(--navy)}
+.firma-name{font-family:'Montserrat',sans-serif;font-size:1rem;font-weight:600;color:var(--navy)}
 .firma-role{font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin-top:.3rem}
 .cierre-link{
   display:inline-flex;align-items:center;gap:.75rem;
